@@ -1,0 +1,34 @@
+
+==============================================================================
+           DriveTCU - RELATÓRIO INTEGRADO E AUDITORIA MESTRA (ZF 8HP45)
+==============================================================================
+ Data / Hora       : 2026-11-04 01:18:16
+ VIN do Veículo    : 98M1A5003F4A09181
+ Odômetro Real EGS : 54.658 km (Multi-DID / Freeze Frame Mining)
+------------------------------------------------------------------------------
+ SAÚDE DAS EMBREAGENS (LERNWERTE):
+------------------------------------------------------------------------------
+Embreagem / Elemento   | Pressão Offset (mbar)  | Tempo Offset (ms)    | Status    
+------------------------------------------------------------------------------
+Embreagem A (K1)       |    +94 mbar            |  -10.0 ms            | BOM       
+Embreagem B (K2)       |   -183 mbar            |  +26.0 ms            | BOM       
+Embreagem C (K3)       |    +94 mbar            |  -13.0 ms            | BOM       
+Embreagem D (K4)       |    -96 mbar            |  +13.0 ms            | BOM       
+Embreagem E (K5)       |   -119 mbar            |  +49.0 ms            | CRÍTICO   
+------------------------------------------------------------------------------
+ SUMÁRIO DE FALHAS MEMORIZADAS (TOTAL: 108 DTCs):
+------------------------------------------------------------------------------
+  •   1 erro(s) -> Alimentação EGS / Tensão de Sinal
+  •   5 erro(s) -> Variação de Pressão de Linha / Hidráulica
+  •   2 erro(s) -> Monitoramento de Relação / Escorregamento de Embreagem
+  •  16 erro(s) -> Limites de Adaptação / Enchimento
+  •  30 erro(s) -> Supervisão Interna / Hardware EGS
+  •   6 erro(s) -> Sinal / Atuação de Solenóides PWM (EDS)
+  •  47 erro(s) -> Comunicação CAN / Barramento (Esperado em bancada)
+  •   1 erro(s) -> Outros Códigos ZF/BMW
+==============================================================================
+[i] SÍNTESE DO DIAGNÓSTICO:
+ - Transmissão auditada com odômetro registado de 54.658 km.
+ - Total de 108 DTCs contabilizados no histórico da mecatrônica.
+ - Elemento(s) crítico(s) identificado(s) por telemetria: Embreagem E (K5) (+49.0 ms).
+==============================================================================

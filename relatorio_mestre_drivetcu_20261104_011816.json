@@ -1,0 +1,585 @@
+{
+    "timestamp": "2026-11-04T01:18:16.531787",
+    "vin": "123",
+    "odometro": "54.658 km",
+    "embreagens": {
+        "Embreagem A (K1)": {
+            "pressao_mbar": 94,
+            "tempo_ms": -10,
+            "status": "BOM"
+        },
+        "Embreagem B (K2)": {
+            "pressao_mbar": -183,
+            "tempo_ms": 26,
+            "status": "BOM"
+        },
+        "Embreagem C (K3)": {
+            "pressao_mbar": 94,
+            "tempo_ms": -13,
+            "status": "BOM"
+        },
+        "Embreagem D (K4)": {
+            "pressao_mbar": -96,
+            "tempo_ms": 13,
+            "status": "BOM"
+        },
+        "Embreagem E (K5)": {
+            "pressao_mbar": -119,
+            "tempo_ms": 49,
+            "status": "CRÍTICO"
+        }
+    },
+    "resumo_dtcs": {
+        "Alimentação EGS / Tensão de Sinal": 1,
+        "Variação de Pressão de Linha / Hidráulica": 5,
+        "Monitoramento de Relação / Escorregamento de Embreagem": 2,
+        "Limites de Adaptação / Enchimento": 16,
+        "Supervisão Interna / Hardware EGS": 30,
+        "Sinal / Atuação de Solenóides PWM (EDS)": 6,
+        "Comunicação CAN / Barramento (Esperado em bancada)": 47,
+        "Outros Códigos ZF/BMW": 1
+    },
+    "total_dtcs": 108,
+    "dtcs_detalhados": [
+        {
+            "code": "4200A3",
+            "status": "0x2F",
+            "categoria": "Alimentação EGS / Tensão de Sinal"
+        },
+        {
+            "code": "421382",
+            "status": "0x40",
+            "categoria": "Variação de Pressão de Linha / Hidráulica"
+        },
+        {
+            "code": "421392",
+            "status": "0x40",
+            "categoria": "Variação de Pressão de Linha / Hidráulica"
+        },
+        {
+            "code": "421402",
+            "status": "0x50",
+            "categoria": "Monitoramento de Relação / Escorregamento de Embreagem"
+        },
+        {
+            "code": "420401",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420411",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420421",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420431",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420441",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420451",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420471",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420491",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4204A1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4204C1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420481",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420461",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4204D1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4204B1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4204E1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "420391",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4203A1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4203B1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4203C1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4203D1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4203E1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4204F1",
+            "status": "0x40",
+            "categoria": "Limites de Adaptação / Enchimento"
+        },
+        {
+            "code": "4202E1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "4202F1",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420311",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420321",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420331",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420341",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420351",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420361",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420371",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420381",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420611",
+            "status": "0x40",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "421352",
+            "status": "0x40",
+            "categoria": "Variação de Pressão de Linha / Hidráulica"
+        },
+        {
+            "code": "CF31C1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "420201",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "420671",
+            "status": "0x40",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "CF2F02",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3102",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3101",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1701",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "421342",
+            "status": "0x40",
+            "categoria": "Variação de Pressão de Linha / Hidráulica"
+        },
+        {
+            "code": "CF047F",
+            "status": "0xAF",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF0403",
+            "status": "0xAF",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "420665",
+            "status": "0x50",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "420664",
+            "status": "0x50",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "420662",
+            "status": "0x50",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "420661",
+            "status": "0x50",
+            "categoria": "Sinal / Atuação de Solenóides PWM (EDS)"
+        },
+        {
+            "code": "421362",
+            "status": "0x40",
+            "categoria": "Variação de Pressão de Linha / Hidráulica"
+        },
+        {
+            "code": "421202",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421201",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "CF2FA1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3192",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3141",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3801",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF3802",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2501",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2302",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2301",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2303",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2102",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2101",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF2103",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "421031",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421032",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421033",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421034",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421035",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "CF19B1",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF19C1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20B2",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20B1",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20B3",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20C2",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20C1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF20C3",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF18E2",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF18E1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF18E3",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1501",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1511",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1542",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1541",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1543",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17A2",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17A1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17A3",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17B2",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17B1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF17B3",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF1601",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF16D2",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF16D1",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "CF16D3",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "421511",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421512",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421722",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421474",
+            "status": "0x40",
+            "categoria": "Monitoramento de Relação / Escorregamento de Embreagem"
+        },
+        {
+            "code": "CF2F82",
+            "status": "0x40",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        },
+        {
+            "code": "421532",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421552",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "421542",
+            "status": "0x40",
+            "categoria": "Supervisão Interna / Hardware EGS"
+        },
+        {
+            "code": "02FF18",
+            "status": "0x50",
+            "categoria": "Outros Códigos ZF/BMW"
+        },
+        {
+            "code": "CF0BFF",
+            "status": "0x50",
+            "categoria": "Comunicação CAN / Barramento (Esperado em bancada)"
+        }
+    ]
+}
